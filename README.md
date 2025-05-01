@@ -16,6 +16,14 @@ JAX documentation.
 
 3. Open URL in browser
 
+### CUDA
+
+To use with an NVIDIA GPU, run with the `--extra cuda` option:
+
+```bash
+uv run --extra cuda main.py
+```
+
 ### BlueBEAR
 
 To open the Perfetto URL in the browser on your local machine, you first need to forward
